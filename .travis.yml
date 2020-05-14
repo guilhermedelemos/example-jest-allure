@@ -8,6 +8,8 @@ node_js:
   - 12
   - 11
   - 10
-  - 9
-  - 8
-  - 7
+addons:
+  sonarcloud:
+    organization: "sonarcloud_organization_key"
+script:
+  - sonar-scanner
