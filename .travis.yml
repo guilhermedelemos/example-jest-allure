@@ -10,6 +10,9 @@ node_js:
   - 10
 addons:
   sonarcloud:
-    organization: "sonarcloud_organization_key"
+    organization: "guilhermedelemos-github"
+install:
+  - yarn install
 script:
-  - sonar-scanner
+  - yarn test
+  - sonar.sh
