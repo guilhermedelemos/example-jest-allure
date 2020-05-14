@@ -105,3 +105,6 @@ dist
 
 # Allure Framework
 allure-results
+
+# Lock files
+*.lock
