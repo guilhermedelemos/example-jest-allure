@@ -1,4 +1,10 @@
+const { jestAddEnvironmentData } = require('../../common/report');
+
 const axios = require('axios').default;
+
+beforeEach(() => {
+    jestAddEnvironmentData();
+});
 
 describe('github', ()=>{
     beforeEach(() => {

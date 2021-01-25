@@ -1,4 +1,10 @@
+const { jestAddEnvironmentData } = require('../../common/report');
+
 const sum = require('./sum');
+
+beforeEach(() => {
+    jestAddEnvironmentData();
+});
 
 describe('Sum', () => {
     beforeEach(() => {
