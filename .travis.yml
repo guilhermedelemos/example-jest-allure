@@ -3,6 +3,7 @@ sudo: false
 node_js:
   - "node"
   - "lts/*"
+  - 15
   - 14
   - 13
   - 12
